@@ -1,0 +1,3 @@
+['remote "data"']
+url = s3://kaggle-datasets-store/house-prices
+profile = diogo

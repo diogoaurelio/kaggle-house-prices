@@ -239,9 +239,6 @@ venv.bak/
 # End of https://www.gitignore.io/api/linux,macos,packer,python,vagrant,terraform,powershell,intellij+all
 
 
+data/*
 secrets/*
 .idea
-README_back.md
-
-/etl/lambdas/redshift/src/*
-!main.py

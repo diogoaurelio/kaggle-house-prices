@@ -1,0 +1,9 @@
+cmd: python src/xgboost_base.py
+deps:
+- md5: 80ccab65fb115cbad143dbbd2bcd5577
+  path: data/train.csv
+md5: e4f5cc6a2d8ca33e3d77efc101e8463a
+outs:
+- cache: false
+  md5: 3d13906a181081ef279164beac942022
+  path: data/xgboost_base.pkl

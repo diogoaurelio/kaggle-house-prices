@@ -26,7 +26,7 @@ Please "cd" into the current reposotory and build your conda environment based o
 ```bash
 conda create -n kaggle python=3.6
 source activate kaggle
-conda install --file conda_requirements.txt
+conda install -c conda-forge --file conda_requirements.txt
 pip install -r pip_requirements.txt
 ```
 
